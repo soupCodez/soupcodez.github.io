@@ -1,0 +1,24 @@
+{
+  "name": "soupcodez.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "http-server -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soupCodez/soupcodez.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soupCodez/soupcodez.github.io/issues"
+  },
+  "homepage": "https://github.com/soupCodez/soupcodez.github.io#readme"
+}
