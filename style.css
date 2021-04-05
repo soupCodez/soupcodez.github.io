@@ -11,14 +11,6 @@
   }
 }
 
-/* styles the navbar */
-.navbar {
-  width: 10vh;
-  height: 100vh;
-  position: fixed;
-  background-color: #686161;
-}
-
 /* Styles the scroll bar */
 body::-webkit-scrollbar {
   width: 0.7em;
@@ -33,7 +25,23 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-/* Changes font & background */
+/* Style the links inside the navigation bar */
+.nav-itemcss a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+/* Change the color of links on hover */
+.nav-itemcss a:hover {
+  color: black;
+}
+
+/* Changes font */
 body {
   background-image: url(bg.jpg);
   font-family: Comfortaa;
@@ -46,14 +54,13 @@ body {
 .text-par {
   color: black;
 }
-/* center align class */
+
 .center {
   display: grid;
   place-items: center;
   text-align: center;
 }
 
-/* aligns goal tab */
 #goals {
   text-align: left;
 }
