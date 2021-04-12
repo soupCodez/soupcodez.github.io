@@ -247,19 +247,19 @@ export default function Home() {
               I'm a person that programs in their free time
               <br />
               <br />
-              Background image by
+              Background image by 
               <a
                 className="text-decoration-none"
                 href="https://unsplash.com/@christianperner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
               >
-                Christian Perner
+                Christian Perner 
               </a>
-              on
+              on 
               <a
                 className="text-decoration-none"
                 href="https://unsplash.com/s/photos/white-wallpaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
               >
-                Unsplash
+                Unsplash 
               </a>
             </p>
           </div>
