@@ -109,7 +109,7 @@ export default function Home() {
             <i className="fas fa-home fa-10x" />
             <h1 className="text-center text-title">Home</h1>
             <p className="text-center text-par">
-              Welcome to
+              Welcome to 
               <a
                 className="text-decoration-none"
                 href="https://github.com/soupCodez"
