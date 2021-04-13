@@ -18,7 +18,9 @@ const useScript = (url) => {
 
 export default function Home() {
   useScript("https://kit.fontawesome.com/09a12c3116.js");
-  useScript("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js");
+  useScript(
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  );
   return (
     <div>
       <meta charSet="UTF-8" />
@@ -109,7 +111,7 @@ export default function Home() {
             <i className="fas fa-home fa-10x" />
             <h1 className="text-center text-title">Home</h1>
             <p className="text-center text-par">
-              Welcome to 
+              Welcome to{" "}
               <a
                 className="text-decoration-none"
                 href="https://github.com/soupCodez"
@@ -137,7 +139,7 @@ export default function Home() {
               </a>
             </p>
             <p id="moreprojmobile">
-              View all projects at my
+              View all projects at my{" "}
               <a
                 className="text-decoration-none"
                 href="https://github.com/soupCodez?tab=repositories"
@@ -146,7 +148,7 @@ export default function Home() {
               </a>
             </p>
             <p id="moreproj">
-              View all projects at my
+              View all projects at my{" "}
               <a
                 className="text-decoration-none"
                 href="https://github.com/soupCodez?tab=repositories"
@@ -221,9 +223,9 @@ export default function Home() {
               <li>
                 <a
                   className="text-decoration-none"
-                  href="https://kotlinlang.org/"
+                  href="https://svelte.dev/"
                 >
-                  Kotlin
+                  Svelte
                 </a>
               </li>
               <li>
@@ -247,19 +249,19 @@ export default function Home() {
               I'm a person that programs in their free time
               <br />
               <br />
-              Background image by 
+              Background image by{" "}
               <a
                 className="text-decoration-none"
                 href="https://unsplash.com/@christianperner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
               >
-                Christian Perner 
+                Christian Perner{" "}
               </a>
-              on 
+              on{" "}
               <a
                 className="text-decoration-none"
                 href="https://unsplash.com/s/photos/white-wallpaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
               >
-                Unsplash 
+                Unsplash
               </a>
             </p>
           </div>
