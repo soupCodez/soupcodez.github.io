@@ -7,7 +7,7 @@
 
 > A portfolio template that anyone can use! This is also @soupCodez portfolio
 
-### 🏠 [Homepage](soupcodez.github.io)
+### 🏠 Homepage
 
 ## Install
 
