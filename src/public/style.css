@@ -1,0 +1,69 @@
+#projpins {
+  display: block;
+}
+
+#moreprojmobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #projpins {
+    display: none;
+  }
+}
+/* Styles the scroll bar */
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #686161;
+  outline: 1px solid slategrey;
+}
+
+/* Style the links inside the navigation bar */
+.nav-itemcss a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+/* Change the color of links on hover */
+.nav-itemcss a:hover {
+  color: black;
+}
+
+/* Changes font */
+body {
+  background-image: url(bg.jpg);
+  font-family: Comfortaa;
+}
+
+/* Changes text color */
+.text-title {
+  color: #686161;
+}
+
+.text-par {
+  color: black;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#goals {
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */

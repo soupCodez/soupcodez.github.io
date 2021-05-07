@@ -1,0 +1,19 @@
+{
+  "name": "soupcodez.github.io",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sass": "sass sass/index.scss public/style.css"
+  },
+  "dependencies": {
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.32.12"
+  }
+}
