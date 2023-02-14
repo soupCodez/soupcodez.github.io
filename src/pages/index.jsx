@@ -133,7 +133,7 @@ export default function Home() {
                 />
               </a>
             </p>
-            <p id="moreprojmobile">
+            <p id="moreprojmobile">f
               View all projects at my{" "}
               <a
                 className="text-decoration-none"
@@ -155,7 +155,7 @@ export default function Home() {
           <div id="goals" className="center">
             <i className="fas fa-bullseye fa-10x" />
             <h1 className="text-title">Goals</h1>
-            <p className="text-par">In 2022 I want to learn...</p>
+            <p className="text-par">In 2023 I want to learn...</p>
             <ul>
               <li>
                 <a className="text-decoration-none" href="https://remix.run/">
